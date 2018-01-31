@@ -1,0 +1,30 @@
+# Bower vendor assets #
+#######################
+/assets/vendor
+npm-debug.log
+docker-compose.yml
+dist
+**/node/
+**/node_modules/
+**/bower_components/
+
+# Files #
+*.project
+*.classpath
+*.tern-project
+*.jsfdia
+*.spdia
+*.pmd
+*.idea
+*.iml
+*.versionsBackup
+*.checkstyle
+*.eclipse-pmd
+*.DS_Store
+
+# Folders #
+**/target/
+**/classes/
+**/.idea/
+**/.settings/
+**/bin

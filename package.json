@@ -1,0 +1,14 @@
+{
+    "name": "order-test",
+    "version": "0.0.1",
+    "main": "index.js",
+    "private": true,
+    "devDependencies": {
+        "express": "~4.2.0",
+        "gulp": "^3.9.1"
+    },
+    "scripts": {
+        "start": "gulp server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

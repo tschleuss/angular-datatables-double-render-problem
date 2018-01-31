@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order double render and ajax request twice #295</title>
+    <link rel='stylesheet prefetch' href='http://cdn.datatables.net/1.10.16/css/jquery.dataTables.css'>
+</head>
+
+<body>
+    <div ng-app="datatablesSampleApp">
+        <div ng-controller="SimpleCtrl as showCase" class="code">
+            <table datatable dt-options="showCase.datatableOptions" dt-columns="showCase.datatableColumns">
+            </table>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.0.js'></script>
+    <script src='http://cdn.datatables.net/1.10.16/js/jquery.dataTables.js'></script>
+    <script src='https://code.angularjs.org/1.5.0/angular.js'></script>
+    <script src='https://cdn.rawgit.com/l-lin/angular-datatables/angular1/dist/angular-datatables.js'></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
